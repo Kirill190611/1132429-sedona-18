@@ -6,7 +6,7 @@
   </head>
   <body>
     <header class="page-header">
-      <a class="page-header__logo">
+      <a href="index.html" class="page-header__logo">
         <img class="page-header__logo-image" src="img/logotyle-mobile-svg.svg" width="102" height="83" alt="Сервис поиска гостиниц Седона">
       </a>
       <nav class="main-nav">
@@ -15,7 +15,7 @@
         <div class="main-nav__wrapper">
           <ul class="main-nav__list site-list">
             <li class="site-list__item site-list__item--active">
-              <a>Главная</a>
+              <a href="index.html">Главная</a>
             </li>
             <li class="site-list__item">
               <a href="photo.html">Фото и видео</a>
@@ -40,9 +40,9 @@
       <section class="form-description">
         <h2 class="form-description__title">Оставьте свой отзыв</h2> 
         <p class="form-desciprion__intro">Помогите нашим отелям стать лучше! Оставьте отзыв о них, а также о посещенных вами достопримечательностях</p>
-        <form class="form-filters__list" action="https://echo.htmlacademy.ru" method="get">
+        <form class="form-filters" action="https://echo.htmlacademy.ru" method="get">
             <section class="form-filters__block info">
-                <h3 class="form-filters__title">Представьтесь:</h3>
+                <h3 class="info__title">Представьтесь:</h3>
                 <p class="info__item">
                     <label class="info__label" for="name">Имя<sup>*</sup>:</label>
                     <input class="info__input" type="text" name="name" id="name" placeholder="Петр" required>
@@ -57,7 +57,7 @@
                 </p>
             </section>
             <section class="form-filters__block contacts">
-                <h3 class="form-filters__title">Контактная информация:</h3>
+                <h3 class="contacts__title">Контактная информация:</h3>
                 <p class="contacts__item">
                     <label class="contacts__label" for="tel">Контактный телефон<sup>*</sup>:</label>
                     <input class="contacts__input contacts__input--tel" type="tel" name="tel" id="tel" pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" placeholder="Введите телефон" required>
@@ -68,7 +68,7 @@
                 </p>
             </section>
             <section class="form-filters__block impression">
-                <h3 class="form-filters__title">Ваше общее впечатление:</h3>
+                <h3 class="impression__title">Ваше общее впечатление:</h3>
                 <ul class="impression__list">
                     <li class="impression__item">
                         <input class="impression__input" type="radio" name="positive" value="positive" id="positive" checked> 
@@ -85,7 +85,7 @@
                 </ul>
             </section>
             <section class="form-filters__block sights">
-                <h3 class="form-filters__title">Посещенные достопримечательности:</h3>
+                <h3 class="sights__title">Посещенные достопримечательности:</h3>
                 <ul class="sights__list">
                     <li class="sights__item">
                         <input class="sights__input" type="checkbox" name="place1" id="place1" checked>
@@ -107,7 +107,7 @@
             </section>
             <section class="form-filters__block emotion">
                 <h3 class="visually-hidden">Опишите свои эмоции:</h3>
-                <label class="form-filters__title" for="emotion">Опишите свои эмоции:</label>
+                <label class="emotion__title" for="emotion">Опишите свои эмоции:</label>
                 <textarea class="emotion__textarea" name="emotion" id="emotion" cols="30" rows="10" placeholder="Опишите подробно все свои восторги"></textarea>
             </section>
             <button class="form_filters__button" type="submit">Отправить отзыв</button>
