@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
     <header class="page-header">
@@ -15,31 +16,29 @@
         <div class="main-nav__wrapper">
           <ul class="main-nav__list site-list">
             <li class="site-list__item site-list__item--active">
-              <a href="index.html">Главная</a>
+              <a class="site-list__link" href="index.html">Главная</a>
             </li>
             <li class="site-list__item">
-              <a href="photo.html">Фото и видео</a>
+              <a class="site-list__link" href="photo.html">Фото и видео</a>
             </li>
             <li class="site-list__item">
-              <a href="form.html">Форма отзыва</a>
+              <a class="site-list__link" href="form.html">Форма отзыва</a>
             </li>
             <li class="site-list__item">
-              <a href="https://htmlacademy.ru/">Html Academy</a>
+              <a class="site-list__link" href="https://htmlacademy.ru/">Html Academy</a>
             </li>
           </ul>
         </div>
       </nav>    
     </header>
-
     <main class="form-main">
       <h1 class="visually-hidden">Отзыв о нас</h1>
       <section class="form-background">
         <img class="form-background__text" src="img/sedona.svg" width="229" height="39" alt="Седона"> 
       </section>
-
       <section class="form-description">
         <h2 class="form-description__title">Оставьте свой отзыв</h2> 
-        <p class="form-desciprion__intro">Помогите нашим отелям стать лучше! Оставьте отзыв о них, а также о посещенных вами достопримечательностях</p>
+        <p class="form-description__intro">Помогите нашим отелям стать лучше! Оставьте отзыв о них, а также о посещенных вами достопримечательностях</p>
         <form class="form-filters" action="https://echo.htmlacademy.ru" method="get">
             <section class="form-filters__block info">
                 <h3 class="info__title">Представьтесь:</h3>
@@ -64,7 +63,7 @@
                 </p>
                 <p class="contacts__item">
                     <label class="contacts__label" for="email">Электронная почта<sup>*</sup>:</label>
-                    <input class="contatcs__input contacts__input--email" type="email" name="email" id="email" placeholder="Введите e-mail" required> 
+                    <input class="contacts__input contacts__input--email" type="email" name="email" id="email" placeholder="Введите e-mail" required> 
                 </p>
             </section>
             <section class="form-filters__block impression">
@@ -110,11 +109,10 @@
                 <label class="emotion__title" for="emotion">Опишите свои эмоции:</label>
                 <textarea class="emotion__textarea" name="emotion" id="emotion" cols="30" rows="10" placeholder="Опишите подробно все свои восторги"></textarea>
             </section>
-            <button class="form_filters__button" type="submit">Отправить отзыв</button>
+            <button class="form_filters__button button" type="submit">Отправить отзыв</button>
         </form>
       </section>
     </main>
-
     <footer class="page-footer">
       <a class="page-footer__tag" href="#">#visitsedona</a>
       <div class="page-footer__social social">
@@ -126,7 +124,7 @@
             <a class="social__link social__link--facebook" href="https://www.facebook.com/">Мы в Фейсбуке</a>
           </li>
           <li class="social__item">
-            <a class="social_link social__link--youtube" href="https://www.youtube.com/">Мы на Ютубе</a>
+            <a class="social__link social__link--youtube" href="https://www.youtube.com/">Мы на Ютубе</a>
           </li>
         </ul>  
       </div>
@@ -137,6 +135,5 @@
         </a>
       </div> 
     </footer>
-    
   </body>
 </html>

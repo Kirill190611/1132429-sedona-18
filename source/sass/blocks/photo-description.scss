@@ -1,0 +1,22 @@
+.photo-description {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: $mobile-width;
+}
+
+.photo-description__title {
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.photo-description__intro {
+    width: 270px;
+    color: #333333;
+    text-align: center;
+    text-transform: uppercase;
+}

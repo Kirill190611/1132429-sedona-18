@@ -1,0 +1,11 @@
+.page-header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+    min-width: $mobile-width;
+}
+
+.page-header__logo {
+    height: 83px;
+}

@@ -1,0 +1,23 @@
+.page-description {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: $mobile-width;
+}
+
+.page-description__title {
+    width: 255px;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.page-description__intro {
+    width: 255px;
+    color: #333333;
+    text-align: center;
+    text-transform: uppercase;
+}

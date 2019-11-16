@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
     <header class="page-header">
@@ -15,33 +16,30 @@
         <div class="main-nav__wrapper">
           <ul class="main-nav__list site-list">
             <li class="site-list__item site-list__item--active">
-              <a href="index.html">Главная</a>
+              <a class="site-list__link" href="index.html">Главная</a>
             </li>
             <li class="site-list__item">
-              <a href="photo.html">Фото и видео</a>
+              <a class="site-list__link" href="photo.html">Фото и видео</a>
             </li>
             <li class="site-list__item">
-              <a href="form.html">Форма отзыва</a>
+              <a class="site-list__link" href="form.html">Форма отзыва</a>
             </li>
             <li class="site-list__item">
-              <a href="https://htmlacademy.ru/">Html Academy</a>
+              <a class="site-list__link" href="https://htmlacademy.ru/">Html Academy</a>
             </li>
           </ul>
         </div>
       </nav>    
     </header>
-
     <main class="photo-main">
       <h1 class="visually-hidden">Фотографии и видео Седоны</h1>
       <section class="photo-background">
         <img class="photo-background__text" src="img/sedona.svg" width="229" height="39" alt="Седона"> 
       </section>
-
       <section class="photo-description">
         <h2 class="photo-description__title">Фото и видео</h2> 
-        <p class="photo-desciprion__intro">Не можете решиться на путешествие из-за курса? Фотографии помогут вам забыть о политике и экономике.</p>
+        <p class="photo-description__intro">Не можете решиться на путешествие из-за курса? Фотографии помогут вам забыть о политике и экономике.</p>
       </section>
-
       <section class="media">
         <h2 class="visually-hidden">Фото Седоны</h2>
         <ul class="media__list">
@@ -53,7 +51,7 @@
                 <p class="media__author">Автор фото: Борис</p>
                 <div class="media__like">
                   <button class="media__button like-button" type="button">Лайк</button>
-                  <span>1350</span>
+                  <span class="media__like-qty">1350</span>
                 </div>
             </li>
             <li class="media__item">
@@ -64,7 +62,7 @@
                 <p class="media__author">Автор фото: Сергей</p>
                 <div class="media__like">
                   <button class="media__button like-button" type="button">Лайк</button>
-                  <span>143</span>
+                  <span class="media__like-qty">143</span>
                 </div>    
             </li>
             <li class="media__item">
@@ -75,7 +73,7 @@
                 <p class="media__author">Автор фото: Петр</p>
                 <div class="media__like">
                   <button class="media__button like-button" type="button">Лайк</button>
-                  <span>96</span>
+                  <span class="media__like-qty">96</span>
                 </div>  
             </li>
             <li class="media__item">
@@ -86,12 +84,11 @@
                 <p class="media__author">Автор фото: Антон</p>
                 <div class="media__like">
                   <button class="media__button like-button" type="button">Лайк</button>
-                  <span>254</span>
+                  <span class="media__like-qty">254</span>
                 </div>
             </li>
         </ul>  
       </section>
-
       <section class="video">
         <h2 class="video__title">Все еще сомневаетесь?</h2>
         <p class="video__intro">Смотрите видеопрезентацию и скорее за билетами, пока они не подорожали в очередной раз!</p>
@@ -105,7 +102,6 @@
         </div>
       </section>
     </main>
-
     <footer class="page-footer">
       <a class="page-footer__tag" href="#">#visitsedona</a>
       <div class="page-footer__social social">
@@ -117,7 +113,7 @@
             <a class="social__link social__link--facebook" href="https://www.facebook.com/">Мы в Фейсбуке</a>
           </li>
           <li class="social__item">
-            <a class="social_link social__link--youtube" href="https://www.youtube.com/">Мы на Ютубе</a>
+            <a class="social__link social__link--youtube" href="https://www.youtube.com/">Мы на Ютубе</a>
           </li>
         </ul>  
       </div>
@@ -128,6 +124,5 @@
         </a>
       </div> 
     </footer>
-    
   </body>
 </html>

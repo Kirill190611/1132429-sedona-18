@@ -1,0 +1,31 @@
+.video {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;    
+}
+
+.video__title {
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;    
+}
+
+.video__intro {
+    width: 236px; 
+    color: #333333;
+    text-align: center;
+    text-transform: uppercase;   
+}
+
+.video__buttons {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 280px;
+    height: 66px;
+    background-color: $grey;
+}

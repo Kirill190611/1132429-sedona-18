@@ -1,0 +1,24 @@
+.main-nav {
+    background-color: $blue;
+}
+
+.site-list {
+   font-size: 18px;
+   font-weight: 700;
+   text-align: center;
+   text-transform: uppercase;
+   list-style: none;
+}
+
+.main-nav__list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.site-list__link {
+    color: $white;
+}

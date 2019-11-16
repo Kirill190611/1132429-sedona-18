@@ -1,0 +1,13 @@
+.page-background,
+.photo-background,
+.form-background {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    min-width: $mobile-width;
+    min-height: 389px;
+    background-image: url("../img/back-mobile-jpg.jpg");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
