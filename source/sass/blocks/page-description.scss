@@ -21,3 +21,23 @@
     text-align: center;
     text-transform: uppercase;
 }
+
+@media (min-width: $tablet-width) {
+    .page-description__title {
+        width: 490px;
+    }
+
+    .page-description__intro {
+        width: 490px;
+    }
+}
+
+@media (min-width: $desktop-width) {
+    .page-description__title {
+        width: 490px;
+    }
+
+    .page-description__intro {
+        width: 490px;
+    }
+}

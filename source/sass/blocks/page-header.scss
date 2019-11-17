@@ -1,11 +1,33 @@
+.main-nav {
+    min-height: 223px;
+}
+
+@media (min-width: $tablet-width) {
+    .main-nav {
+        min-height: 56px;    
+    }
+}
+
 .page-header {
     display: flex;
     flex-direction: column;
     text-align: center;
     justify-content: space-between;
-    min-width: $mobile-width;
 }
 
 .page-header__logo {
     height: 83px;
+    order: 2;
+}
+
+@media (min-width: $tablet-width) {
+    .page-header__logo {
+        order: 0;
+    }
+}
+
+@media (min-width: $desktop-width) {
+    .page-header__logo {
+        height: 96px;
+    }    
 }

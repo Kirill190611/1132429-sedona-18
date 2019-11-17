@@ -4,6 +4,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    width: 320px;
+    margin: 0 auto;
 }
 
 .hotel-search__title {
@@ -34,4 +36,22 @@
     font-weight: 700;
     color: $white;
     text-transform: uppercase;
+}
+
+@media (min-width: $tablet-width) {
+    .hotel-search {
+        width: 768px;
+    }
+
+    .hotel-search__title {
+        font-size: 30px;
+    }
+
+    .hotel-search__intro {
+        width: 434px;
+    }
+
+    .button {
+        width: 458px;
+    }
 }

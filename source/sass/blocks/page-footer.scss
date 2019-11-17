@@ -4,6 +4,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    width: 320px;
+    margin: 0 auto;
 }
 
 .page-footer__tag {
@@ -54,4 +56,18 @@
 .copyright__text {
     font-weight: 400;
     text-transform: uppercase;    
+}
+
+@media (min-width: $tablet-width) {
+    .page-footer {
+        width: 768px;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
+
+@media (min-width: $desktop-width) {
+    .page-footer {
+        width: 1200px;
+    }
 }

@@ -5,9 +5,20 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    min-width: $mobile-width;
     min-height: 389px;
     background-image: url("../img/back-mobile-jpg.jpg");
     background-repeat: no-repeat;
-    background-position: 0 0;
+    background-position: 50% 50%;
+}
+
+@media (min-width: $tablet-width) {
+    .page-background {
+        background-image: url("../img/bg-back-tablet@1x.jpg");
+    }
+}
+
+@media (min-width: $desktop-width) {
+    .page-background {
+        background-image: url("../img/bg-back-desktop@1x.jpg");
+    }
 }
