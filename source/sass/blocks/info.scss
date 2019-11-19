@@ -1,0 +1,27 @@
+.info__title {
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;    
+}
+
+.info__item {
+    display: flex; 
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; 
+    margin-left: 20px; 
+    margin-right: 20px; 
+}
+
+.info__label {
+    color: #333333;
+    text-transform: uppercase;    
+}
+
+.info__input[placeholder] {
+    font-size: 18px;
+    font-weight: 700;
+    color: #000000;
+}

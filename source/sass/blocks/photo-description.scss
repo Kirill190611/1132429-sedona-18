@@ -20,3 +20,14 @@
     text-align: center;
     text-transform: uppercase;
 }
+
+@media (min-width: $tablet-width) {
+    .photo-description__title {
+        font-size: 30px;
+    }
+
+    .photo-description__intro {
+        width: 428px;
+        color: #333333;
+    }
+}

@@ -1,0 +1,22 @@
+.emotion__title {
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;    
+}
+
+.emotion {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.emotion__textarea {
+    font-size: 18px;
+    font-weight: 700;
+    color: $black;
+    border: none;
+    background-color: $grey;
+}

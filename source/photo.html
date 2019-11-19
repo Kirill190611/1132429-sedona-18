@@ -45,46 +45,62 @@
         <ul class="media__list">
             <li class="media__item">
                 <a href="media__link">
-                  <img class="media__image" src="img/photo-1-mobile-jpg.jpg" width="280" height="280" alt="Просторы Седоны">
+                  <img class="media__image media__image--tablet-main media__image--desktop-main" src="img/photo-1-mobile-jpg.jpg" width="280" height="280" alt="Просторы Седоны">
                 </a>
-                <h3 class="media__title">Неродные просторы</h3>
-                <p class="media__author">Автор фото: Борис</p>
-                <div class="media__like">
-                  <button class="media__button like-button" type="button">Лайк</button>
-                  <span class="media__like-qty">1350</span>
+                <div class="media__image-info--main-tablet media__image-info--main-desktop">
+                  <div class="media__image-description media__image-description--tablet">
+                    <h3 class="media__title">Неродные просторы</h3>
+                    <p class="media__author">Автор фото: Борис</p>
+                  </div>
+                  <div class="media__like">
+                    <button class="media__button like-button" type="button">Лайк</button>
+                    <span class="media__like-qty">1350</span>
+                  </div>
                 </div>
             </li>
             <li class="media__item">
                 <a href="media__link">
-                  <img class="media__image" src="img/photo-2-mobile-jpg.jpg" width="280" height="280" alt="Растительность Седоны">
+                  <img class="media__image media__image--tablet-add media__image--desktop-add" src="img/photo-2-mobile-jpg.jpg" width="280" height="280" alt="Растительность Седоны">
                 </a>
-                <h3 class="media__title">Местная растительность</h3>
-                <p class="media__author">Автор фото: Сергей</p>
-                <div class="media__like">
-                  <button class="media__button like-button" type="button">Лайк</button>
-                  <span class="media__like-qty">143</span>
-                </div>    
+                <div class="media__image-info--add-tablet media__image-info--add-desktop">
+                  <div class="media__image-description">
+                    <h3 class="media__title">Местная растительность</h3>
+                    <p class="media__author">Автор фото: Сергей</p>
+                  </div>
+                  <div class="media__like">
+                    <button class="media__button like-button" type="button">Лайк</button>
+                    <span class="media__like-qty">143</span>
+                  </div>  
+                </div> 
             </li>
             <li class="media__item">
                 <a href="media__link">
-                  <img class="media__image" src="img/photo-3-mobile-jpg.jpg" width="280" height="280" alt="Дорога к Седоне">
+                  <img class="media__image media__image--tablet-add media__image--desktop-add" src="img/photo-3-mobile-jpg.jpg" width="280" height="280" alt="Дорога к Седоне">
                 </a>
-                <h3 class="media__title">Дорога на север</h3>
-                <p class="media__author">Автор фото: Петр</p>
-                <div class="media__like">
-                  <button class="media__button like-button" type="button">Лайк</button>
-                  <span class="media__like-qty">96</span>
-                </div>  
+                <div class="media__image-info--add-tablet media__image-info--add-desktop">
+                  <div class="media__image-description">
+                    <h3 class="media__title">Дорога на север</h3>
+                    <p class="media__author">Автор фото: Петр</p>
+                  </div>
+                  <div class="media__like">
+                    <button class="media__button like-button" type="button">Лайк</button>
+                    <span class="media__like-qty">96</span>
+                  </div>  
+                </div>
             </li>
             <li class="media__item">
                 <a href="media__link">
-                  <img class="media__image" src="img/photo-4-mobile-jpg.jpg" width="280" height="280" alt="Мост Дьявола">
+                  <img class="media__image media__image--tablet-add media__image--desktop-add" src="img/photo-4-mobile-jpg.jpg" width="280" height="280" alt="Мост Дьявола">
                 </a>
-                <h3 class="media__title">Мост Дьявола</h3>
-                <p class="media__author">Автор фото: Антон</p>
-                <div class="media__like">
-                  <button class="media__button like-button" type="button">Лайк</button>
-                  <span class="media__like-qty">254</span>
+                <div class="media__image-info--add-tablet media__image-info--add-desktop">
+                  <div class="media__image-description">
+                    <h3 class="media__title">Мост Дьявола</h3>
+                    <p class="media__author">Автор фото: Антон</p>
+                  </div>
+                  <div class="media__like">
+                    <button class="media__button like-button" type="button">Лайк</button>
+                    <span class="media__like-qty">254</span>
+                  </div>
                 </div>
             </li>
         </ul>  
@@ -92,13 +108,15 @@
       <section class="video">
         <h2 class="video__title">Все еще сомневаетесь?</h2>
         <p class="video__intro">Смотрите видеопрезентацию и скорее за билетами, пока они не подорожали в очередной раз!</p>
-        <video class="video__content" width="321" height="201" src="#">
-          <source src="#" type="video/mp4"> 
-        </video>
-        <div class="video__buttons">
-          <button class="video__repeat" type="button">Повтор</button>
-          <button class="video__subtitles" type="button">Субтитры</button>
-          <button class="video__fullscreen" type="button">Полный экран</button>
+        <div class="video__player">
+          <video class="video__content" width="321" height="201" src="#">
+            <source src="#" type="video/mp4"> 
+          </video>
+          <div class="video__buttons">
+            <button class="video__repeat" type="button">Повтор</button>
+            <button class="video__subtitles" type="button">Субтитры</button>
+            <button class="video__fullscreen" type="button">Полный экран</button>
+          </div>
         </div>
       </section>
     </main>

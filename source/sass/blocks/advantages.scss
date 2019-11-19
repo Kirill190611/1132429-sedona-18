@@ -95,11 +95,8 @@
         align-items: flex-start;
     }
 
-    .advantages__item:nth-child(3),
-    .advantages__item:nth-child(4),
-    .advantages__item:nth-child(5) {
+    .advantages__item--tablet {
         width: 256px;
-
     }
     
     .advantages__image-item {
@@ -146,9 +143,7 @@
         width: 1200px;
     }  
     
-    .advantages__item:nth-child(3),
-    .advantages__item:nth-child(4),
-    .advantages__item:nth-child(5) {
+    .advantages__item--desktop {
         width: 400px;
     }
 
