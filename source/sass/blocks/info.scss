@@ -25,3 +25,53 @@
     font-weight: 700;
     color: #000000;
 }
+
+@media (min-width: $tablet-width) {
+    .info__item {
+        width: 266px;
+    }
+
+    .info__title {
+        font-size: 21px;
+    }
+    .info__input--name {
+        width: 216px;
+        height: 58px;
+    }
+
+    .info__input--surname {
+        width: 178px;
+        height: 58px;   
+    }
+
+    .info__input--patronymic {
+        width: 180px;
+        height: 58px;     
+    }
+
+    .info__input[placeholder] {
+        background-color: $grey;
+        border: none;
+    }
+}
+
+@media (min-width: $desktop-width) {
+    .info__item {
+        width: 400px;
+    }
+
+    .info__input--name {
+        width: 350px;
+        height: 58px;
+    }
+
+    .info__input--surname {
+        width: 312px;
+        height: 58px;   
+    }
+
+    .info__input--patronymic {
+        width: 313px;
+        height: 58px;     
+    }
+}

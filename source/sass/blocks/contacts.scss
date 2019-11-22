@@ -25,3 +25,36 @@
     margin-left: 20px; 
     margin-right: 20px; 
 }
+
+@media (min-width: $tablet-width) {
+    .contacts__title {
+        font-size: 21px; 
+    }
+    
+    .contacts__input[placeholder] {
+        width: 648px;
+        height: 58px;
+        background-color: $grey;
+        border: none;
+    }
+}
+
+@media (min-width: $desktop-width) {
+    .contacts__list {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .contacts__item {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .contacts__input[placeholder] {
+        width: 285px;
+        height: 58px;
+    }        
+}

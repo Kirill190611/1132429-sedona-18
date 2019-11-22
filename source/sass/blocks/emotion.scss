@@ -20,3 +20,29 @@
     border: none;
     background-color: $grey;
 }
+
+@media (min-width: $tablet-width) {
+    .emotion {
+        width: 648px;
+    }
+
+    .emotion__title {
+        font-size: 21px;
+    }
+
+    .emotion__textarea {
+        width: 648px;
+        height: 160px;
+    }
+}
+
+@media (min-width: $desktop-width) {
+    .emotion {
+        width: 960px;
+    }
+
+    .emotion__textarea {
+        width: 960px;
+        height: 160px;
+    }
+}

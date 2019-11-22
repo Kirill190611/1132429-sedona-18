@@ -42,3 +42,38 @@
     font-weight: 700;
     color: $white;
 }
+
+@media (min-width: $tablet-width) {
+    .form-filters {
+        flex-direction: row;
+        width: 648px;
+    }
+
+    .impression {
+        order: -1;
+    }
+
+    .form-description__title {
+        font-size: 30px;
+    }
+
+    .form-description__intro {
+        width: 439px;
+    }
+    
+    .form_filters__button {
+        width: 324px;
+        height: 58px;
+    }
+}
+
+@media (min-width: $desktop-width) {
+    .form-filters {
+        width: 960px;
+    }
+
+    .form_filters__button {
+        width: 480px;
+        height: 58px;   
+    }
+}

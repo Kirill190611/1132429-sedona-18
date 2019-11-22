@@ -14,3 +14,40 @@
     font-size: 18px;
     font-weight: 700;
 }
+
+@media (min-width: $tablet-width) {
+    .sights {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        width: 400px;
+    }
+
+    .sights__list {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 350px;
+    }
+
+    .sights__title {
+        font-size: 21px;
+    }
+}
+
+@media (min-width: $desktop-width) {
+    .sights {
+        width: 950px;
+    }
+    .sights__list {
+        width: 950px;
+    }
+
+    .sights__title {
+        width: 278px;
+    }
+}
